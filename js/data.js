@@ -1,0 +1,80 @@
+/**
+  * Starting Budget Items as a JSON String
+  * @param {object} budgetItems
+  **/
+let budgetItems = 
+	[
+		{
+			"id":1,
+			"description":"Rent",
+			"type":"Expense",
+			"payDate":"2021-03-01T22:05:09",
+			"frequency":1,
+			"increment":"Monthly",
+			"amount":1800
+		},
+		{
+			"id":2,
+			"description":"Power",
+			"type":"Expense",
+			"payDate":"2021-03-05T22:05:09",
+			"frequency":1,
+			"increment":"Monthly",
+			"amount":300
+		},
+		{
+			"id":3,
+			"description":"Phone/Internet",
+			"type":"Expense",
+			"payDate":"2021-03-10T22:05:09",
+			"frequency":1,
+			"increment":"Monthly",
+			"amount":200
+		},
+		{
+			"id":4,
+			"description":"Car Payment",
+			"type":"Expense",
+			"payDate":"2021-03-12T22:05:09",
+			"frequency":1,
+			"increment":"Monthly",
+			"amount":350
+		},
+		{
+			"id":5,
+			"description":"Auto Insurance",
+			"type":"Expense",
+			"payDate":"2021-03-20T22:05:09",
+			"frequency":1,
+			"increment":"Monthly",
+			"amount":160
+		},
+		{
+			"id":6,
+			"description":"Salary",
+			"type":"Income",
+			"payDate":"2021-03-01T22:05:09",
+			"frequency":2,
+			"increment":"Weeks",
+			"amount":2000
+		}, 
+		{
+			"id":7,
+			"description":"Groceries",
+			"type":"Expense",
+			"payDate":"2021-03-05T22:05:09",
+			"frequency":1,
+			"increment":"Weekly",
+			"amount":300
+		},
+		{
+			"id":8,
+			"description":"Clothing",
+			"type":"Expense",
+			"payDate":"2021-03-20T22:05:09",
+			"frequency":3,
+			"increment":"Monthly",
+			"amount":400
+		}
+	],
+	budgetItemsStr = JSON.stringify( budgetItems );
