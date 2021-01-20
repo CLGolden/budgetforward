@@ -30,6 +30,50 @@
 				</tbody>
 			</table>
 		</section>
+
+		<section id="formSection">
+			<p>Reference: <a href="https://www.learnwithjason.dev/blog/get-form-values-as-json/">FormData API</a></p>
+			
+			<form action="" method="get" id="budgetForm">
+		<h3>Budget Items</h3>
+		<div class="form-div">
+			<label for="item">Item Description: </label>
+			<input type="text" name="item" id="item" required>
+		</div>
+
+		<div class="form-div">
+			<input type="radio" id="income" name="itemType" value="income">
+			<label for="income">Income</label>
+
+			<input type="radio" id="expense" name="itemType" value="expense" checked>
+			<label for="expense">Expense</label>
+		</div>
+
+		<div class="form-div">
+			<label for="payDate">Pay Date: </label>
+			<input type="date" name="payDate" id="payDate" required>
+		</div>
+
+		<div class="form-div">
+			<label for="frequency">Frequency: </label>
+			<select name="frequency" id="frequency">
+				<option value="once">Once</option>
+				<option value="weekly">Weekly</option>
+				<option value="monthly">Monthly</option>
+				<option value="annually">Annually</option>
+			</select>
+		</div>
+
+		<div class="form-div">
+			<label for="amount">Amount: </label>
+			<input type="number" name="amount" id="amount" required>
+		</div>
+		
+		<div class="form-div">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+		</section>
 	</main>
 	<footer>footer</footer>
 
