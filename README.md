@@ -1,7 +1,7 @@
 # BudgetForward
 The conventional way of creating a budget is to create an average of one's fixed expenses and income for a 30-day period.
 
-This is a really unforgiving number.
+This is a static, impractical--and unforgiving--number.
 
 What if, for example, on the 10th of the month, I want to know if I can responsibly spend $50 on something without running out of money before the next paycheck?
 
