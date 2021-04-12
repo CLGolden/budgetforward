@@ -1,4 +1,4 @@
-# budgetforward
+# BudgetForward
 The conventional way of creating a budget is to create an average of one's fixed expenses and income for a 30-day period.
 
 This is a really unforgiving number.
