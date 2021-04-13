@@ -23,9 +23,13 @@ The original developer built it in PHP, then sold it. Now it's clumsy, has no fr
 
 I want to build one in JS/React.
 
-General Plan:
+## Phase I:
 - Build form with income/expense data going to JSON file and into a table
 - Sort data by year, month, day with recurring
 - Persist data
 - Calculate balance per day from previous balance
 - Style balance to red when negative
+
+## Phase II and III
+Interactive calendar
+Graph of balances over days, months, years
