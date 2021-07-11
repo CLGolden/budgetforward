@@ -1,35 +1,11 @@
 # BudgetForward
-The conventional way of creating a budget is to create an average of one's fixed expenses and income for a 30-day period.
+All budgeting apps will help you figure out the logistics of how to support yourself and your family. The app I want to build does this *and* takes the natural, human ebb and flow of motivation into account. It is based on visualizing hope for one’s financial future rather than imagining the spectre of dire consequences or feeling the failure of straying from the goal.
 
-This is a static, impractical--and unforgiving--number.
+To read the whole 'Why' of this project, go to the [article in Medium](https://sunhouseclg.medium.com/why-im-developing-another-budgeting-app-2bd6ec4f6f5d).
 
-What if, for example, on the 10th of the month, I want to know if I can responsibly spend $50 on something without running out of money before the next paycheck?
+I've found only one other, free-standing app like what I want to build, [Balance Forecasting](https://balanceforecastingapp.com). The original developer built it in PHP, then sold it. Now it's clumsy and not working from the graph.
 
-But, wait, didn't I go out to a movie last week? And how many lattes have I bought? I knew I had $80 to spend this month, but when exactly?
+This is to be an open-source project built in JS/React. I'm new to JS/React, running an open-source project and to GitHub. I am pretty good at HTML/CSS.
 
-Granted, this app might only appeal to people who's cash hovers around zero. But that's where I've been all too often in my life, and that's just when I need to budget the most!
+The way I see it, the app needs to do these things, in this order. It looks to me like the Date Sorting part is going to dictate how the rest works.
 
-Budgeting has always felt like an excercise in failure to me. Preparing an accurate budget means carefully examining all the things I bought last month that I 'shouldn't have.' 
-
-What if budgeting could be an exercise in hope and progress?
-
-What I needed was a way to **forecast** cash flow. A program that would give my cash balance on a daily basis relative to the future, not to the past.
-
-I could find this program buried in other complex financial software, and they were focussed more on stock trends than cash flow. 
-
-I found only one independent forecasting app, https://balanceforecastingapp.com
-
-The original developer built it in PHP, then sold it. Now it's clumsy, has no free option.
-
-I want to build one in JS/React.
-
-## Phase I:
-- Build form with income/expense data going to JSON file and into a table
-- Sort data by year, month, day with recurring
-- Persist data
-- Calculate balance per day from previous balance
-- Style balance to red when negative
-
-## Phase II and III
-Interactive calendar
-Graph of balances over days, months, years
