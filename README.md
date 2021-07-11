@@ -9,3 +9,4 @@ This is to be an open-source project built in JS/React. I'm new to JS/React, run
 
 The way I see it, the app needs to do these things, in this order. It looks to me like the Date Sorting part is going to dictate how the rest works.
 
+<img src="https://raw.githubusercontent.com/CLGolden/budgetforward/main/BF-dataflow-20210711.jpg" alt="high-level, preliminary diagram of data flow in BudgetForward app">
